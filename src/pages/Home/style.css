@@ -1,0 +1,84 @@
+.home {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-image: url('../../assets/imgs/syshome.jpeg');
+}
+.home .home-header {
+  width: 100%;
+  height: 50px;
+  background: rgba(121, 117, 117, 0.8);
+  position: absolute;
+  top: 0px;
+  text-align: center;
+}
+.home .home-header span {
+  line-height: 50px;
+  font-size: 25px;
+  font-weight: 800;
+}
+.home .home-footer {
+  width: 100%;
+  height: 30px;
+  background: rgba(121, 117, 117, 0.8);
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+}
+.home .home-footer span {
+  line-height: 30px;
+  font-size: 25px;
+  font-weight: 800;
+}
+.home .home-container {
+  width: 100%;
+  height: 577px;
+  top: 60px;
+  position: absolute;
+}
+.home .home-container .register-logon {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 120px;
+}
+.home .home-container .register-logon .register,
+.home .home-container .register-logon .login {
+  width: 150px;
+  height: 120px;
+  background: rgba(121, 117, 117, 0.8);
+  border-radius: 50px;
+  padding: 10px 0;
+}
+.home .home-container .register-logon .register .headImg,
+.home .home-container .register-logon .login .headImg {
+  text-align: center;
+  margin: 10px 0;
+}
+.home .home-container .register-logon .register .headImg span,
+.home .home-container .register-logon .login .headImg span {
+  font-size: 50px;
+  font-weight: 800;
+  color: #0c1111;
+}
+.home .home-container .register-logon .register .imgName,
+.home .home-container .register-logon .login .imgName {
+  text-align: center;
+}
+.home .home-container .register-logon .register .imgName span,
+.home .home-container .register-logon .login .imgName span {
+  font-size: 20px ;
+  font-weight: 800;
+}
+.home .home-container .userInfo {
+  height: auto;
+  width: 90%;
+  margin: 20px auto;
+  background: rgba(197, 211, 221, 0.8);
+  border-radius: 50px;
+  overflow: auto;
+}
+a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=./style.css.map */

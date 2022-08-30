@@ -1,0 +1,75 @@
+.changeBookWrapper {
+    width: 100%;
+    height: 100%;
+
+    .changeBookHead {
+        position: absolute;
+        width: 100%;
+        height: 50px;
+        display: flex;
+
+        .changeBookTitle {
+            margin-left: 70px;
+
+            span {
+                font-size: 30px;
+                line-height: 50px;
+                font-weight: 800;
+            }
+        }
+
+    }
+    .delBookBody {
+        height: 150px;
+        width: 100%;
+        top: 60px;
+        position: absolute;
+        display: flex;
+        justify-content: space-evenly;
+        .bookInfo {
+            width: 250px;
+            height: 80px;
+            margin-top:40px;
+            margin-left: 20px;
+            .author,.bookName{
+                display: flex;
+                .title{
+                    text-align: center;
+                    height:30px;
+                    span{
+                        line-height:30px;
+                    }
+                }
+            }
+        }
+
+        .searchBtn {
+            width: 100px;
+            height: 100%;
+
+            button {
+                display: block;
+                width: 50px;
+                height:50px;
+                margin: 0 auto;
+                margin-top: 42px;
+                padding-right:42px ;
+                span{
+                    line-height: 10px;
+                   
+                }
+            }
+        }
+
+    }
+    .bookInfos{
+        position: absolute;
+        bottom:10px;
+        width: 100%;
+        height:400px;
+        overflow: auto;
+        border-radius: 40px;
+        background: rgba(227, 235, 236, 0.8);
+        padding:10px 10px ;
+    }
+}

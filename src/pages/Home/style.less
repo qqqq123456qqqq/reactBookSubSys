@@ -1,0 +1,83 @@
+.home {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url('../../assets/imgs/syshome.jpeg');
+    .home-header {
+        width: 100%;
+        height: 50px;
+        background: rgba(121, 117, 117, 0.8);
+        position: absolute;
+        top: 0px;
+        text-align: center;
+
+        span {
+            line-height: 50px;
+            font-size: 25px;
+            font-weight: 800;
+        }
+    }
+
+    .home-footer {
+        width: 100%;
+        height: 30px;
+        background: rgba(121, 117, 117, 0.8);
+        position: absolute;
+        bottom: 0px;
+        text-align: center;
+
+        span {
+            line-height: 30px;
+            font-size: 25px;
+            font-weight: 800;
+        }
+    }
+
+    .home-container {
+
+        width: 100%;
+        height: 577px;
+        top: 60px;
+        position: absolute;
+        .register-logon {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            height:120px;
+            .register,.login{
+                width: 150px;
+                height: 120px;
+                background: rgba(121, 117, 117, 0.8);
+                border-radius: 50px;
+                padding: 10px 0;
+                .headImg{
+                    text-align: center;
+                    span{
+                        font-size: 50px;
+                        font-weight: 800;
+                        color: rgb(12, 17, 17);
+                    }
+                    margin:10px 0;
+                }
+                .imgName{
+                    text-align: center;
+                    span{
+                        font-size:20px ;
+                        font-weight: 800;
+                    }
+                }
+            }
+        }
+        .userInfo{
+            height:auto;
+            width: 90%;
+            margin: 20px auto;
+            background:rgba(197, 211, 221, 0.8);
+            border-radius: 50px;
+            overflow:auto;     
+        }
+    }
+}
+a{
+    text-decoration: none;
+}

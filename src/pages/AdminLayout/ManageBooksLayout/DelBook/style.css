@@ -1,0 +1,145 @@
+.delBookWrapper {
+  width: 100%;
+  height: 100%;
+}
+.delBookWrapper .delBookHead {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+.delBookWrapper .delBookHead .delBookTitle {
+  margin-left: 70px;
+}
+.delBookWrapper .delBookHead .delBookTitle span {
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: 800;
+}
+.delBookWrapper .delBookBody {
+  height: 150px;
+  width: 100%;
+  top: 60px;
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+}
+.delBookWrapper .delBookBody .bookInfo {
+  width: 250px;
+  height: 80px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.delBookWrapper .delBookBody .bookInfo .author,
+.delBookWrapper .delBookBody .bookInfo .bookName {
+  display: flex;
+}
+.delBookWrapper .delBookBody .bookInfo .author .title,
+.delBookWrapper .delBookBody .bookInfo .bookName .title {
+  text-align: center;
+  height: 30px;
+}
+.delBookWrapper .delBookBody .bookInfo .author .title span,
+.delBookWrapper .delBookBody .bookInfo .bookName .title span {
+  line-height: 30px;
+}
+.delBookWrapper .delBookBody .deleteBookBtn {
+  width: 100px;
+  height: 100%;
+}
+.delBookWrapper .delBookBody .deleteBookBtn button {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 42px;
+  padding-right: 42px ;
+}
+.delBookWrapper .delBookBody .deleteBookBtn button span {
+  line-height: 10px;
+}
+.delBookWrapper .delBookLog {
+  height: 380px;
+  width: 100%;
+  top: 200px;
+  position: absolute;
+  border-radius: 40px;
+  background: rgba(207, 237, 238, 0.8);
+  padding: 15px 10px;
+}
+.delBookWrapper .delBookLog .delLogsTitle {
+  height: 30px;
+  width: 100%;
+  text-align: center;
+}
+.delBookWrapper .delBookLog .delLogsTitle span {
+  line-height: 30px;
+  font-weight: 800;
+}
+.delBookWrapper .delBookLog .delBookLogs-wrapper {
+  height: 300px;
+  width: 100%;
+  overflow: auto;
+  position: relative;
+}
+.delBookWrapper .delBookLog .delBookLogs-wrapper .title {
+  margin-bottom: 15px;
+  width: 100%;
+  height: 25px;
+  display: flex;
+}
+.delBookWrapper .delBookLog .delBookLogs-wrapper .title .optionPerson {
+  position: absolute;
+  left: 10px;
+}
+.delBookWrapper .delBookLog .delBookLogs-wrapper .title .bookName {
+  position: absolute;
+  left: 80px;
+}
+.delBookWrapper .delBookLog .delBookLogs-wrapper .title .author {
+  position: absolute;
+  left: 155px;
+}
+.delBookWrapper .delBookLog .delBookLogs-wrapper .title .date {
+  position: absolute;
+  left: 223px;
+}
+.delBookWrapper .delBookLog .delBookLogs-wrapper .title div span {
+  line-height: 25px;
+  font-weight: 800;
+}
+.delBookWrapper .delBookLog .delBookLogs-wrapper .oneLog {
+  width: 100%;
+  height: 42px;
+  display: flex;
+  position: relative;
+}
+.delBookWrapper .delBookLog .delBookLogs-wrapper .oneLog .optionPerson {
+  width: 60px;
+  height: 40px;
+  position: absolute;
+  left: 10px;
+}
+.delBookWrapper .delBookLog .delBookLogs-wrapper .oneLog .bookName {
+  width: 83px;
+  height: 40px;
+  position: absolute;
+  left: 65px;
+}
+.delBookWrapper .delBookLog .delBookLogs-wrapper .oneLog .author {
+  width: 60px;
+  height: 40px;
+  position: absolute;
+  left: 150px;
+}
+.delBookWrapper .delBookLog .delBookLogs-wrapper .oneLog .date {
+  width: 130px;
+  height: 40px;
+  position: absolute;
+  left: 220px;
+}
+.delBookWrapper .delBookLog .delBookLogs-wrapper .oneLog div span {
+  font-size: 15px;
+  font-weight: 800;
+}
+/*# sourceMappingURL=./style.css.map */

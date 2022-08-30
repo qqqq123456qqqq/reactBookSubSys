@@ -1,0 +1,134 @@
+.sublogsHeader {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 50px;
+}
+.sublogsHeader .sublogsTitle {
+  height: 50px;
+  width: 100%;
+  margin-left: 75px;
+}
+.sublogsHeader .sublogsTitle span {
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 50px;
+}
+.sublogsBody {
+  width: 100%;
+  position: absolute;
+  height: 480px;
+  top: 80px;
+  border-radius: 40px;
+  background: rgba(222, 239, 250, 0.8);
+  padding: 20px 5px;
+}
+.sublogsBody .title-data {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.sublogsBody .title-data .sublogsBodyTitle {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  height: 40px;
+}
+.sublogsBody .title-data .sublogsBodyTitle .applyPerson {
+  width: 50px;
+  height: 40px;
+  position: absolute;
+  left: 1px;
+}
+.sublogsBody .title-data .sublogsBodyTitle .applyBook {
+  width: 50px;
+  height: 40px;
+  position: absolute;
+  left: 55px;
+}
+.sublogsBody .title-data .sublogsBodyTitle .optionPerson {
+  width: 50px;
+  height: 40px;
+  position: absolute;
+  left: 111px;
+}
+.sublogsBody .title-data .sublogsBodyTitle .subStartTime {
+  width: 70px;
+  height: 40px;
+  position: absolute;
+  left: 167px;
+}
+.sublogsBody .title-data .sublogsBodyTitle .subEndTime {
+  width: 70px;
+  height: 40px;
+  position: absolute;
+  left: 243px;
+}
+.sublogsBody .title-data .sublogsBodyTitle .subStatus {
+  width: 50px;
+  height: 40px;
+  position: absolute;
+  left: 320px;
+}
+.sublogsBody .title-data .sublogsBodyTitle div span {
+  font-size: 15px;
+  font-weight: 800;
+}
+.sublogsBody .title-data .sublogswrapper {
+  top: 50px;
+  position: absolute;
+  width: 100%;
+  height: 400px;
+}
+.sublogsBody .title-data .sublogswrapper .sublogsData {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  position: relative;
+}
+.sublogsBody .title-data .sublogswrapper .sublogsData .applyPerson {
+  position: absolute;
+  width: 50px;
+  height: 150px;
+  left: 0px;
+}
+.sublogsBody .title-data .sublogswrapper .sublogsData .applyBook {
+  position: absolute;
+  width: 50px;
+  height: 150px;
+  left: 55px;
+}
+.sublogsBody .title-data .sublogswrapper .sublogsData .optionPerson {
+  position: absolute;
+  width: 50px;
+  height: 150px;
+  left: 110px;
+}
+.sublogsBody .title-data .sublogswrapper .sublogsData .subStartTime {
+  position: absolute;
+  width: 80px;
+  height: 150px;
+  left: 170px;
+}
+.sublogsBody .title-data .sublogswrapper .sublogsData .subEndTime {
+  position: absolute;
+  width: 80px;
+  height: 150px;
+  left: 245px;
+}
+.sublogsBody .title-data .sublogswrapper .sublogsData .subStatus {
+  position: absolute;
+  width: 50px;
+  height: 150px;
+  left: 320px;
+}
+.shift {
+  position: absolute;
+  bottom: 10px;
+  right: 50px;
+  align-items: center;
+}
+.shift .username {
+  margin-right: 10px;
+}
+/*# sourceMappingURL=./style.css.map */

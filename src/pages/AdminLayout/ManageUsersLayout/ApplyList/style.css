@@ -1,0 +1,151 @@
+.applyListHeader {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 50px;
+}
+.applyListHeader .applyListTitle {
+  height: 50px;
+  width: 100%;
+  margin-left: 75px;
+}
+.applyListHeader .applyListTitle span {
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 50px;
+}
+.applyListBody {
+  width: 100%;
+  position: absolute;
+  height: 480px;
+  top: 80px;
+  border-radius: 40px;
+  background: rgba(222, 239, 250, 0.8);
+  padding: 20px 5px;
+}
+.applyListBody .title-data {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.applyListBody .title-data .applyListBodyTitle {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  height: 40px;
+}
+.applyListBody .title-data .applyListBodyTitle .applyPerson {
+  width: 45px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+}
+.applyListBody .title-data .applyListBodyTitle .applyBook {
+  width: 60px;
+  height: 40px;
+  position: absolute;
+  left: 45px;
+}
+.applyListBody .title-data .applyListBodyTitle .applyBookTime {
+  width: 65px;
+  height: 40px;
+  position: absolute;
+  left: 107px;
+}
+.applyListBody .title-data .applyListBodyTitle .subStartTime {
+  width: 65px;
+  height: 40px;
+  position: absolute;
+  left: 175px;
+}
+.applyListBody .title-data .applyListBodyTitle .subEndTime {
+  width: 70px;
+  height: 40px;
+  position: absolute;
+  left: 250px;
+}
+.applyListBody .title-data .applyListBodyTitle .option {
+  width: 50px;
+  height: 40px;
+  position: absolute;
+  left: 320px;
+}
+.applyListBody .title-data .applyListBodyTitle div span {
+  font-size: 13px;
+  font-weight: 800;
+}
+.applyListBody .title-data .applyListwrapper {
+  top: 50px;
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  overflow: auto;
+}
+.applyListBody .title-data .applyListwrapper .applyListData {
+  width: 105%;
+  height: 80px;
+  display: flex;
+  position: relative;
+  border: 1px solid #bdbbbb;
+}
+.applyListBody .title-data .applyListwrapper .applyListData .applyPerson {
+  align-items: center;
+  position: absolute;
+  width: 50px;
+  height: 150px;
+  left: 0px;
+  margin-left: 1px solid #bdbbbb;
+}
+.applyListBody .title-data .applyListwrapper .applyListData .applyBook {
+  position: absolute;
+  width: 55px;
+  height: 150px;
+  left: 45px;
+  margin-left: 1px solid #bdbbbb;
+}
+.applyListBody .title-data .applyListwrapper .applyListData .applyBookTime {
+  position: absolute;
+  width: 65px;
+  height: 150px;
+  left: 100px;
+  margin-left: 1px solid #bdbbbb;
+}
+.applyListBody .title-data .applyListwrapper .applyListData .subStartTime {
+  position: absolute;
+  width: 80px;
+  height: 150px;
+  left: 170px;
+  margin-left: 1px solid #bdbbbb;
+}
+.applyListBody .title-data .applyListwrapper .applyListData .subEndTime {
+  position: absolute;
+  width: 80px;
+  height: 150px;
+  left: 245px;
+  margin: 1px solid #bdbbbb;
+}
+.applyListBody .title-data .applyListwrapper .applyListData .option {
+  position: absolute;
+  width: 50px;
+  height: 150px;
+  left: 320px;
+}
+.applyListBody .title-data .applyListwrapper .applyListData .option button {
+  margin-top: 5px;
+}
+.applyListBody .title-data .applyListwrapper .applyListData div {
+  margin-right: 1px solid #bdbbbb;
+}
+.applyListBody .title-data .applyListwrapper .applyListData div span {
+  font-size: 10px;
+  font-weight: 1000;
+}
+.shift {
+  position: absolute;
+  bottom: 10px;
+  right: 56px;
+}
+.shift .username1 {
+  margin-right: 10px;
+}
+/*# sourceMappingURL=./style.css.map */

@@ -1,0 +1,72 @@
+.bookList {
+  position: absolute;
+  width: 100%;
+  height: 380px;
+  bottom: 10px;
+  background: rgba(196, 226, 235, 0.8);
+  border-radius: 40px;
+  overflow: auto;
+  padding: 20px 10px;
+}
+.bookList .title {
+  margin-bottom: 10px;
+  padding: 0 15px;
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  position: relative;
+}
+.bookList .title div {
+  position: absolute;
+}
+.bookList .title span {
+  line-height: 30px;
+  font-weight: 800;
+  font-size: 20px;
+}
+.bookList .title .bookImg {
+  top: 0px;
+  left: 20px;
+}
+.bookList .title .bookName {
+  top: 0px;
+  left: 110px;
+}
+.bookList .title .author {
+  top: 0px;
+  left: 205px;
+}
+.bookList .title .publisher {
+  top: 0px;
+  left: 290px;
+}
+.bookList .bookInfo {
+  margin-bottom: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+.bookList .bookInfo .bookImg {
+  width: 60px;
+  height: 60px;
+}
+.bookList .bookInfo .bookImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.bookList .bookInfo .bookName,
+.bookList .bookInfo .author,
+.bookList .bookInfo .publisher {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+}
+.bookList .bookInfo .bookName span,
+.bookList .bookInfo .author span,
+.bookList .bookInfo .publisher span {
+  font-size: 15px;
+  font-weight: 800;
+}
+/*# sourceMappingURL=./style.css.map */

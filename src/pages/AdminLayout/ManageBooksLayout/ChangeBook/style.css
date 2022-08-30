@@ -1,0 +1,71 @@
+.changeBookWrapper {
+  width: 100%;
+  height: 100%;
+}
+.changeBookWrapper .changeBookHead {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+.changeBookWrapper .changeBookHead .changeBookTitle {
+  margin-left: 70px;
+}
+.changeBookWrapper .changeBookHead .changeBookTitle span {
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: 800;
+}
+.changeBookWrapper .delBookBody {
+  height: 150px;
+  width: 100%;
+  top: 60px;
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+}
+.changeBookWrapper .delBookBody .bookInfo {
+  width: 250px;
+  height: 80px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.changeBookWrapper .delBookBody .bookInfo .author,
+.changeBookWrapper .delBookBody .bookInfo .bookName {
+  display: flex;
+}
+.changeBookWrapper .delBookBody .bookInfo .author .title,
+.changeBookWrapper .delBookBody .bookInfo .bookName .title {
+  text-align: center;
+  height: 30px;
+}
+.changeBookWrapper .delBookBody .bookInfo .author .title span,
+.changeBookWrapper .delBookBody .bookInfo .bookName .title span {
+  line-height: 30px;
+}
+.changeBookWrapper .delBookBody .searchBtn {
+  width: 100px;
+  height: 100%;
+}
+.changeBookWrapper .delBookBody .searchBtn button {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 42px;
+  padding-right: 42px ;
+}
+.changeBookWrapper .delBookBody .searchBtn button span {
+  line-height: 10px;
+}
+.changeBookWrapper .bookInfos {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  height: 400px;
+  overflow: auto;
+  border-radius: 40px;
+  background: rgba(227, 235, 236, 0.8);
+  padding: 10px 10px ;
+}
+/*# sourceMappingURL=./style.css.map */

@@ -1,0 +1,41 @@
+.userwrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #ecd8ad;
+  position: relative;
+}
+.userwrapper .head-body {
+  height: 617px;
+  width: 100%;
+}
+.userwrapper .footer {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  justify-content: space-around;
+  background: #b3b0b0cc;
+}
+.userwrapper .footer .bookCar,
+.userwrapper .footer .selfInfo {
+  width: 80px;
+  height: 50px;
+  padding: 2px 0 ;
+  border-radius: 10px;
+  text-align: center;
+  background-color: aliceblue;
+}
+.userwrapper .footer .bookCar .iconfont,
+.userwrapper .footer .selfInfo .iconfont {
+  font-size: 30px;
+  display: block;
+  color: #f08a05;
+}
+.userwrapper .footer .bookCar i,
+.userwrapper .footer .selfInfo i {
+  display: block;
+  font-size: 10px;
+  color: #0c0b0c;
+  font-weight: 800;
+}
+/*# sourceMappingURL=./style.css.map */

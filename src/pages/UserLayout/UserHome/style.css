@@ -1,0 +1,12 @@
+.useHomeHead {
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+.useHomeHead .search-wrapper {
+  margin-left: 25px;
+}
+.useHomeHead .search-wrapper .search {
+  margin-top: 7px;
+}
+/*# sourceMappingURL=./style.css.map */

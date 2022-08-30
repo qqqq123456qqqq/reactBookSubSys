@@ -1,0 +1,40 @@
+.admin-container {
+  width: 375px;
+  height: 667px;
+  background-color: #ecd8ad;
+  position: relative;
+}
+.admin-container .footer {
+  width: 100%;
+  height: 57px;
+  background: #b3b0b0cc;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.admin-container .footer .bookShelf,
+.admin-container .footer .userManage,
+.admin-container .footer .selfInfo {
+  padding-top: 4px;
+  width: 60px;
+  height: 57px;
+  text-align: center;
+  background-color: aliceblue;
+  border-radius: 20px;
+}
+.admin-container .footer .bookShelf span,
+.admin-container .footer .userManage span,
+.admin-container .footer .selfInfo span {
+  font-size: 30px;
+  display: block;
+  color: #f08a05;
+}
+.admin-container .footer .bookShelf i,
+.admin-container .footer .userManage i,
+.admin-container .footer .selfInfo i {
+  font-size: 10px;
+  color: #0c0b0c;
+  font-weight: 800;
+}
+/*# sourceMappingURL=./style.css.map */

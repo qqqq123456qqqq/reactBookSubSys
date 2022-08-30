@@ -1,0 +1,25 @@
+.crollChartWrapper {
+  width: 100%;
+  height: 160px;
+  position: relative;
+}
+.crollChartWrapper .crollBooks {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+.crollChartWrapper .getcrollChartData {
+  position: absolute;
+  top: 65px;
+  right: 5px;
+}
+.crollChartWrapper .getcrollChartData .iconfont {
+  font-size: 30px;
+  font-weight: 800;
+  color: #0f0f0f;
+}
+.bookList {
+  position: absolute;
+  bottom: 10px;
+}
+/*# sourceMappingURL=./style.css.map */

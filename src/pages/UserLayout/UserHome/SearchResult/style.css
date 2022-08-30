@@ -1,0 +1,129 @@
+.searchResult {
+  width: 98%;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 60px;
+  position: relative;
+  border-radius: 40px;
+  background: rgba(206, 230, 231, 0.8);
+}
+.searchResult .bookImg {
+  position: absolute;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+}
+.searchResult .bookImg img {
+  width: 100px;
+  height: 100px;
+}
+.searchResult .bookName {
+  position: absolute;
+  left: 200px;
+  width: 100px;
+  height: 80px;
+  text-align: center;
+}
+.searchResult .bookName span {
+  font-size: 20px;
+  line-height: 80px;
+}
+.bookInfoWrapper {
+  width: 98%;
+  height: 300px;
+  position: absolute;
+  top: 30px;
+  left: 3px;
+  border-radius: 40px;
+  background: rgba(214, 237, 240, 0.8);
+  padding: 10px 5px;
+  overflow: auto;
+}
+.bookInfoWrapper .bookInfoData {
+  position: absolute;
+  top: 0px;
+  left: 45px;
+}
+.bookInfoWrapper .bookInfoData .onedata {
+  border-bottom: 1px solid #b9b7b7;
+}
+.bookInfoWrapper .bookInfoData .onedata .bookName,
+.bookInfoWrapper .bookInfoData .onedata .author,
+.bookInfoWrapper .bookInfoData .onedata .publisher,
+.bookInfoWrapper .bookInfoData .onedata .bookImg,
+.bookInfoWrapper .bookInfoData .onedata .bookNum,
+.bookInfoWrapper .bookInfoData .onedata .bookInfo {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 13px;
+}
+.bookInfoWrapper .bookInfoData .onedata .bookName .title,
+.bookInfoWrapper .bookInfoData .onedata .author .title,
+.bookInfoWrapper .bookInfoData .onedata .publisher .title,
+.bookInfoWrapper .bookInfoData .onedata .bookImg .title,
+.bookInfoWrapper .bookInfoData .onedata .bookNum .title,
+.bookInfoWrapper .bookInfoData .onedata .bookInfo .title,
+.bookInfoWrapper .bookInfoData .onedata .bookName .data,
+.bookInfoWrapper .bookInfoData .onedata .author .data,
+.bookInfoWrapper .bookInfoData .onedata .publisher .data,
+.bookInfoWrapper .bookInfoData .onedata .bookImg .data,
+.bookInfoWrapper .bookInfoData .onedata .bookNum .data,
+.bookInfoWrapper .bookInfoData .onedata .bookInfo .data {
+  height: 50px;
+  width: 180px;
+  text-align: center;
+}
+.bookInfoWrapper .bookInfoData .onedata .bookName .title span,
+.bookInfoWrapper .bookInfoData .onedata .author .title span,
+.bookInfoWrapper .bookInfoData .onedata .publisher .title span,
+.bookInfoWrapper .bookInfoData .onedata .bookImg .title span,
+.bookInfoWrapper .bookInfoData .onedata .bookNum .title span,
+.bookInfoWrapper .bookInfoData .onedata .bookInfo .title span,
+.bookInfoWrapper .bookInfoData .onedata .bookName .data span,
+.bookInfoWrapper .bookInfoData .onedata .author .data span,
+.bookInfoWrapper .bookInfoData .onedata .publisher .data span,
+.bookInfoWrapper .bookInfoData .onedata .bookImg .data span,
+.bookInfoWrapper .bookInfoData .onedata .bookNum .data span,
+.bookInfoWrapper .bookInfoData .onedata .bookInfo .data span {
+  font-size: 15px;
+}
+.bookInfoWrapper .bookInfoData .onedata .bookName .title,
+.bookInfoWrapper .bookInfoData .onedata .author .title,
+.bookInfoWrapper .bookInfoData .onedata .publisher .title,
+.bookInfoWrapper .bookInfoData .onedata .bookImg .title,
+.bookInfoWrapper .bookInfoData .onedata .bookNum .title,
+.bookInfoWrapper .bookInfoData .onedata .bookInfo .title {
+  border-right: 1px solid #a3a1a1;
+  width: 100px;
+}
+.bookInfoWrapper .bookInfoListTitle .title span,
+.bookInfoWrapper .bookInfoListTitle .data span {
+  font-size: 25px;
+  font-weight: 700;
+}
+.selectData {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  height: 150px;
+}
+.selectData .startDate,
+.selectData .endDate {
+  margin: 0 auto;
+  padding-left: 10px;
+}
+.selectData .startDate .ant-form-item-label,
+.selectData .endDate .ant-form-item-label {
+  font-weight: 800;
+  padding-left: 65px;
+}
+.submit {
+  position: absolute;
+  bottom: 30px;
+  left: 100px;
+}
+/*# sourceMappingURL=./style.css.map */

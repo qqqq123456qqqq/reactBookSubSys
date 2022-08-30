@@ -1,0 +1,100 @@
+.userInfoHead {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  display: flex;
+}
+.userInfoHead .userInfoTitle {
+  height: 50px;
+  margin-left: 75px;
+}
+.userInfoHead .userInfoTitle span {
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 50px;
+}
+.manageUsersBody {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 100px;
+}
+.manageUsersBody .search-wrapper .search {
+  width: 100%;
+  height: 40px;
+  padding-left: 70px;
+}
+.userInfoWrapper {
+  width: 98%;
+  height: 340px;
+  position: absolute;
+  top: 200px;
+  left: 3px;
+  border-radius: 40px;
+  background: rgba(214, 237, 240, 0.8);
+  padding: 10px 5px;
+}
+.userInfoWrapper .userInfoListTitle,
+.userInfoWrapper .username,
+.userInfoWrapper .password,
+.userInfoWrapper .identify,
+.userInfoWrapper .phone,
+.userInfoWrapper .jobNum,
+.userInfoWrapper .email {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 13px;
+}
+.userInfoWrapper .userInfoListTitle .title,
+.userInfoWrapper .username .title,
+.userInfoWrapper .password .title,
+.userInfoWrapper .identify .title,
+.userInfoWrapper .phone .title,
+.userInfoWrapper .jobNum .title,
+.userInfoWrapper .email .title,
+.userInfoWrapper .userInfoListTitle .data,
+.userInfoWrapper .username .data,
+.userInfoWrapper .password .data,
+.userInfoWrapper .identify .data,
+.userInfoWrapper .phone .data,
+.userInfoWrapper .jobNum .data,
+.userInfoWrapper .email .data {
+  height: 30px;
+  width: 50%;
+  text-align: center;
+}
+.userInfoWrapper .userInfoListTitle .title span,
+.userInfoWrapper .username .title span,
+.userInfoWrapper .password .title span,
+.userInfoWrapper .identify .title span,
+.userInfoWrapper .phone .title span,
+.userInfoWrapper .jobNum .title span,
+.userInfoWrapper .email .title span,
+.userInfoWrapper .userInfoListTitle .data span,
+.userInfoWrapper .username .data span,
+.userInfoWrapper .password .data span,
+.userInfoWrapper .identify .data span,
+.userInfoWrapper .phone .data span,
+.userInfoWrapper .jobNum .data span,
+.userInfoWrapper .email .data span {
+  line-height: 30px;
+  font-size: 20px;
+}
+.userInfoWrapper .userInfoListTitle .title,
+.userInfoWrapper .username .title,
+.userInfoWrapper .password .title,
+.userInfoWrapper .identify .title,
+.userInfoWrapper .phone .title,
+.userInfoWrapper .jobNum .title,
+.userInfoWrapper .email .title {
+  border-right: 1px solid #a3a1a1;
+  width: 100px;
+}
+.userInfoWrapper .userInfoListTitle .title span,
+.userInfoWrapper .userInfoListTitle .data span {
+  font-size: 25px;
+  font-weight: 700;
+}
+/*# sourceMappingURL=./style.css.map */

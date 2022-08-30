@@ -1,0 +1,53 @@
+.manageUsersfunc-head {
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  display: flex;
+}
+.manageUsersfunc-head .manageUsersfunc-title {
+  width: 100%;
+  height: 50px;
+  margin-left: 75px;
+}
+.manageUsersfunc-head .manageUsersfunc-title span {
+  line-height: 50px;
+  font-size: 30px;
+  font-weight: 800;
+}
+.manageUsersfirst-container,
+.manageUserssecond-container {
+  width: 100%;
+  top: 50px;
+  height: 150px;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+.manageUsersfirst-container a,
+.manageUserssecond-container a {
+  display: block;
+  width: 150px;
+  height: 150px;
+  border-radius: 30px;
+  background-color: #8fb6a4;
+}
+.manageUsersfirst-container a div span,
+.manageUserssecond-container a div span {
+  display: block;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+  color: #f7fafa;
+}
+.manageUsersfirst-container a div i,
+.manageUserssecond-container a div i {
+  margin-top: 20px;
+  display: block;
+  font-size: 20px;
+  text-align: center;
+}
+.manageUserssecond-container {
+  top: 250px;
+}
+/*# sourceMappingURL=./style.css.map */

@@ -1,0 +1,11 @@
+.icon {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  margin-left: 10px;
+}
+.icon span {
+  line-height: 50px;
+  font-size: 40px;
+}
+/*# sourceMappingURL=./style.css.map */
